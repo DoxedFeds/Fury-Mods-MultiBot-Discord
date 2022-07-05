@@ -1,0 +1,65 @@
+{
+    "bot_setup": {
+        "prefix": "./",
+        "token": "OTk0MDA4MzE4OTkxNDA5MTgy.GRf6Cx.VDOHMMgqEX_MDbqvjEc5PA2XAoYJWww6BbHFWjRE2NeX5",
+        "copyright": "© 2022 RevolutionCorp",
+        "bot_status": "online",
+        "bot_game_type": "PLAYING",
+        "bot_game": "RevolutionCorp.Gov",
+        "main_embed_color": "#0096D6",
+        "debug_mode": false
+    },
+
+    "module_toggles": {
+        "welcome_leave_channel": true,
+        "join_role": true,
+        "logs": true,
+        "moderation_commands": true,
+        "mod_logs": true,
+        "fun_commands": true,
+        "utility_commands": true,
+        "ticket_system": true,
+        "filter_lang_links": false,
+        "member_count_channel": true
+    },
+
+    "channel_setup": {
+        "welcome_channel": "992155379607818342",
+        "general_logs_channel": "994009261208260678",
+        "kick_logs_channel": "994009391403647106",
+        "ban_logs_channel": "994009551126921386",
+        "warning_logs_channel": "994009913372192799",
+        "mute_logs_channel": "994010122139476008",
+        "command_logs_channel": "994010210672857118",
+        "ticket_category": "992161343752896622"
+    },
+
+    "join_roles": {
+        "role": "992179955674927214"
+    },
+
+    "ticket_system": {
+        "support_role": "992163369517846580",
+        "auto_reply": true,
+        "auto_reply_message": "Hey, \nThanks for making a ticket! We will be sure to reply to you as soon as a member of support is available."
+    },
+
+    "moderation_module": {
+        "mute_role": "Muted",
+        "DM_kicked_user": true,
+        "DM_banned_user": true,
+        "DM_muted_user": true,
+        "DM_warned_user": true
+    },
+
+    "filter_module": {
+        "language_bypass_role": "",
+        "link_bypass_role": "",
+        "filter_links": ["bing.com", "example.com"],
+        "filter_words": ["fuck", "words", "go", "here", "see docs for easy example!"]
+    },
+
+    "member_count_module": {
+        "member_count_channel": ""
+    }
+}
